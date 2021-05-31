@@ -1,0 +1,108 @@
+/************** table **************/
+#prod-table{
+  height: 500px;
+  margin: 0 30px;
+}
+
+.btn{
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 120px;
+  display: inline-block;
+  background: #337ab7;
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn i{
+  font-size: 14px;
+  padding: 3px;
+}
+
+.view-btn{
+  display: inline-block;
+  background: #27ae60;
+  color: white;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn, .unblock-btn{
+  display: inline-block;
+  background: #f39c12;
+  color: white;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.del-btn, .block-btn{
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 5px 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.block-btn,
+.unblock-btn{
+  width: 80px;
+}
+
+.content-table-feedback{
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.content-table-feedback table {
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+.content-table-feedback th,
+.content-table-feedback td {
+  text-align: left;
+  padding: 15px 20px;
+  min-width: 205px;
+}
+
+
+.content-table-feedback th{
+  font-weight: 500;
+}
+
+.content-table-feedback td{
+  color: #777;
+}
+
+.content-table-feedback th{
+  position: sticky;
+  top: 0;
+  background-color: #3E3B3B;
+  color: white;
+  text-align: left;
+}
+
+.content-table-feedback tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table-feedback tbody tr:nth-child(even){
+  background-color: #f3f3f3;
+}
+
+.content-table-feedback tbody tr:last-of-type {
+  border-bottom: 1px solid #777;
+}
