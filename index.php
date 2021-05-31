@@ -6,10 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!----- ***************** css  ***************** ------>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+		<link rel="stylesheet" type="text/css" href="frontend//assets/css/style.css"></link>
 
 		<!----- ***************** icon  ***************** ------>
-		<link rel="shortcut icon" href="myIcon.ico">
+		<link rel="shortcut icon" href="frontend//myIcon.ico">
 
 		<!----- ***************** fonts  ***************** ------>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -33,22 +33,22 @@
 							<li><a href="#myProduct">Products</a></li>
 							<li><a href="#myAbout">About</a></li>
 							<li><a href="#myContact">Contact</a></li>
-							<li><a href="account.php">Account</a></li>
+							<li><a href="frontend/account.php">Account</a></li>
 						</ul>
 					</nav>
-					<img src="assets/images/cart.png" width="30px" height="30px;">
-					<img src="assets/images/menu.png" class="menu-icon" onclick="menuToggleAccount()">
+					<img src="frontend/assets/images/cart.png" width="30px" height="30px;">
+					<img src="frontend/assets/images/menu.png" class="menu-icon" onclick="menuToggleAccount()">
 				</div> 
 
 				<div class="row"> 
 					<div class="col-2">
 						<h1>HGHMNDS</h1>
 						<p>Never out of place. <br> Smart clothing for everyday living.</p>
-						<a href="account.php" class="btn">Buy Now &#8594;</a>
+						<a href="frontend/account.php" class="btn">Buy Now &#8594;</a>
 					</div>
 
 					<div class="col-2">
-						<img src="assets/images/main.png" class="this-image">
+						<img src="frontend/assets/images/main.png" class="this-image">
 					</div>
 				</div>
 
@@ -62,7 +62,7 @@
 			<h2 class="title">Featured Products</h2>
 			<div class="row"> 
 				<div class="col-3">
-					<img src="assets/images/products/product-1.jpg" width="400px" >
+					<img src="frontend/assets/images/products/product-1.jpg" width="400px" >
 					<h4>HGHMNDS 3BL4CK</h4>
 					<div class="rating">
 						<i class="fa fa-star"></i>
@@ -75,7 +75,7 @@
 				</div> 
 
 				<div class="col-3">
-					<img src="assets/images/products/product-2.jpg" width="400px" >
+					<img src="frontend/assets/images/products/product-2.jpg" width="400px" >
 					<h4>KALMADO K5LMD2</h4>
 					<div class="rating">
 						<i class="fa fa-star"></i>
@@ -88,7 +88,7 @@
 				</div> 
 
 				<div class="col-3">
-					<img src="assets/images/products/product-3.jpg" width="400px" >
+					<img src="frontend/assets/images/products/product-3.jpg" width="400px" >
 					<h4>HGHMNDS 2GRNZ9</h4>
 					<div class="rating">
 						<i class="fa fa-star"></i>
@@ -105,7 +105,7 @@
 			<h2 class="title">Latest Products</h2>
 			<div class="row"> <!--start row-->
 				<div class="col-4">
-					<img src="assets/images/products/latest-1.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-1.jpg" width="250px" >
 					<h4>HGHMNDS BPLN2</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -118,7 +118,7 @@
 				</div> <!--end col-->
 
 				<div class="col-4">
-					<img src="assets/images/products/latest-2.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-2.jpg" width="250px" >
 					<h4>HGHMNDS WPLN1</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -131,7 +131,7 @@
 				</div> <!--end col-->
 
 				<div class="col-4">
-					<img src="assets/images/products/latest-3.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-3.jpg" width="250px" >
 					<h4>HGHMNDS BPLK2</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -143,7 +143,7 @@
 					<p>Php720.00</p>
 				</div> <!--end col-->
 				<div class="col-4">
-					<img src="assets/images/products/latest-4.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-4.jpg" width="250px" >
 					<h4>HGHMNDS WPLK1</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -158,7 +158,7 @@
 
 			<div class="row"> <!--start row-->
 				<div class="col-4">
-					<img src="assets/images/products/latest-5.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-5.jpg" width="250px" >
 					<h4>KALMADO BLPKN5</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -171,7 +171,7 @@
 				</div> <!--end col-->
 
 				<div class="col-4">
-					<img src="assets/images/products/latest-6.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-6.jpg" width="250px" >
 					<h4>KALMADO BPLW2</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -184,7 +184,7 @@
 				</div> <!--end col-->
 
 				<div class="col-4">
-					<img src="assets/images/products/latest-7.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-7.jpg" width="250px" >
 					<h4>KALMADO RPLN4</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -196,7 +196,7 @@
 					<p>Php700.00</p>
 				</div> <!--end col-->
 				<div class="col-4">
-					<img src="assets/images/products/latest-8.jpg" width="250px" >
+					<img src="frontend/assets/images/products/latest-8.jpg" width="250px" >
 					<h4>KALMADO NPLK3</h4>
 					<div class="ratingg">
 						<i class="fa fa-star"></i>
@@ -217,7 +217,7 @@
 			<div class="small-container"> 
 				<div class="row">
 					<div class="col-2">
-						<img src="assets/images/products/offer-1.jpg" class="offer-img" width="370px">
+						<img src="frontend/assets/images/products/offer-1.jpg" class="offer-img" width="370px">
 					</div>
 					<div class="col-2">
 						<h4>Exclusively Available</h4>
@@ -225,7 +225,7 @@
 						<p>
 							Maintain your style with our newest Strain Collection.
 						</p>
-						<a href="account.php" class="btn">Buy Now &#8594;</a>
+						<a href="frontend/account.php" class="btn">Buy Now &#8594;</a>
 					</div>
 				</div>
 			</div> 
@@ -248,7 +248,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star-o"></i>
 						</div>
-						<img src="assets/images/testimonial-1.jpg">
+						<img src="frontend/assets/images/testimonial-1.jpg">
 						<h3>Al James</h3>
 					</div> 
 
@@ -262,7 +262,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star-o"></i>
 						</div>
-						<img src="assets/images/testimonial-2.jpg">
+						<img src="frontend/assets/images/testimonial-2.jpg">
 						<h3>Christine</h3>
 					</div> 
 
@@ -276,7 +276,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star-o"></i>
 						</div>
-						<img src="assets/images/testimonial-3.jpg">
+						<img src="frontend/assets/images/testimonial-3.jpg">
 						<h3>Shanti Dope</h3>
 					</div> 
 				</div> 
@@ -298,7 +298,7 @@
 						<a href="#" class="btn">Read More &#8594;</a>
 					</div>
 					<div class="col-2">
-						<img src="assets/images/logo.png" class="offer-img" width="370px">
+						<img src="frontend/assets/images/logo.png" class="offer-img" width="370px">
 					</div>
 				</div>
 			</div>
@@ -312,19 +312,19 @@
 				<h2 class="title">Why Choose Us</h2>
 				<div class="row"> 
 					<div class="col-3"> 
-						<img src="assets/images/why-us-1.png">
+						<img src="frontend/assets/images/why-us-1.png">
 						<h3>Fast Services</h3>
 						<p>We're tend to bring super quality, quick delivery. Ever so marvelous packaging. Experience first-rate service.</p>
 					</div> 
 
 					<div class="col-3"> 
-						<img src="assets/images/why-us-2.jpg">
+						<img src="frontend/assets/images/why-us-2.jpg">
 						<h3>Great Team</h3>
 						<p>Coming together is a beginning, staying together is progress, and working together is success.</p>
 					</div> 
 
 					<div class="col-3"> 
-						<img src="assets/images/why-us-3.jpg">
+						<img src="frontend/assets/images/why-us-3.jpg">
 						<h3>Best Deals</h3>
 						<p>We promise you, this clothing will brings you so much joy and makes you so comfortable.</p>
 					</div> 
@@ -340,19 +340,19 @@
 				<h2 class="title">Meet the Team</h2>
 				<div class="row">
 					<div class="col-3"> 
-						<img src="assets/images/the-team-1.jpg">
+						<img src="frontend/assets/images/the-team-1.jpg">
 						<h3>John Benedict Regore</h3>
 						<p>Developer</p>
 					</div> 
 
 					<div class="col-3"> 
-						<img src="assets/images/the-team-3.jpg">
+						<img src="frontend/assets/images/the-team-3.jpg">
 						<h3>John Patrick Martinez</h3>
 						<p>Developer</p>
 					</div>
 
 					<div class="col-3"> 
-						<img src="assets/images/the-team-2.jpg">
+						<img src="frontend/assets/images/the-team-2.jpg">
 						<h3>Raphael Abejero</h3>
 						<p>Tester</p>
 					</div> 
@@ -360,13 +360,13 @@
 
 				<div class="row"> 
 					<div class="col-2"> 
-						<img src="assets/images/the-team-4.jpg">
+						<img src="frontend/assets/images/the-team-4.jpg">
 						<h3>Maria Emerlita Orbiso</h3>
 						<p>Designer</p>
 					</div> 
 
 					<div class="col-2"> 
-						<img src="assets/images/the-team-5.jpg">
+						<img src="frontend/assets/images/the-team-5.jpg">
 						<h3>Sid Airo Ramirez</h3>
 						<p>Designer</p>
 					</div> 
@@ -410,7 +410,45 @@
 
 
 		<!----- ***************** Footer  ***************** ------>
-		<?php include 'user-footer.php';?>
+		<div class="footer"> 
+			<div class="container"> 
+				<div class="row"> 
+					<div class="footer-col-1"> 
+						<img src="frontend/assets/images/logo.jpg">
+					</div> 
+
+					<div class="footer-col-2"> 
+						<h3>Download Our App</h3>
+						<p>Download App for Android and Ios in your mobile phone.</p>
+						<div class="app-logo">
+							<img src="frontend/assets/images/store-1.png">
+							<img src="frontend/assets/images/store-2.png">
+						</div>
+					</div> 
+
+					<div class="footer-col-3"> 
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+						</ul>
+					</div> 
+
+					<div class="footer-col-4"> 
+						<h3>Follow Us</h3>
+						<ul>
+							<li><a href="https://www.facebook.com/HGHMNDS" target="_blank">Facebook</a></li>
+							<li><a href="https://www.instagram.com/highmindsclothing/" target="_blank">Instagram</a></li>
+							<li><a href="">Twitter</a></li>
+						</ul>
+					</div> 
+
+				</div> 
+				<hr>
+				<p class="copyright">Copyright 2021 - Group 1</p>
+			</div> 
+		</div> 
 
 
 

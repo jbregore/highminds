@@ -31,10 +31,10 @@
 
 				<nav>
 					<ul id="menuItems">
-						<li><a href="index.php#myHeader">Home</a></li>
-						<li><a href="index.php#myProduct">Products</a></li>
-						<li><a href="index.php#myAbout">About</a></li>
-						<li><a href="index.php#myContact">Contact</a></li>
+						<li><a href="../index.php#myHeader">Home</a></li>
+						<li><a href="../index.php#myProduct">Products</a></li>
+						<li><a href="../index.php#myAbout">About</a></li>
+						<li><a href="../index.php#myContact">Contact</a></li>
 						<li><a href="account.php" class="active">Account</a></li>
 					</ul>
 				</nav>
